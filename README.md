@@ -2,7 +2,7 @@
 
 The task sheet will cover topics related to video encoding, here we will only work with low-resolution videos, to demonstrate the methods that can be further used for larger resolution videos
 
-Subtask 1: quality estimation
+<!-- Subtask 1: quality estimation --> -->
 
 Let's assume, we successfully recorded a video in high quality (uncompressed, or visually lossless compressed), we post-processed the video (removed noise, perform video cutting, added audio), and we want to prepare it in a way that it can be used for delivery. Several possible distribution methods are thinkable, ranging from DVD, Bluray to HTTP-based streaming. For all methods, compression is required, because an uncompressed video signal would not fit the transmission medium of our choice. However there are plenty of possibilities to encode a given video, it is thus hard to know which one is best suitable. For such reasons, quality estimation methods, that originate from image quality, can be used to check whether a codec, an encoding setting, ... fits the required quality for transmission. Implement in the following task PSNR to estimate the video quality for the given encoded video.
 
